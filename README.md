@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # College Crowdfunding Platform
 
 A crowdfunding and project-marketplace platform for college students, with **student, teacher and customer** logins.
@@ -80,3 +81,6 @@ python3 tests/smoke_test.py
 - **Payments are simulated.** No money moves. Integrate Razorpay/Stripe inside `contribute()` in `server.py`.
 - Anyone can sign up as a teacher. In production, restrict teacher accounts (admin approval or college email domain).
 - Run behind HTTPS (nginx/Caddy) when deployed. Passwords are hashed (PBKDF2) and all user text is escaped.
+=======
+# Crowdfunding-Platform-
+>>>>>>> 83bb8dff72de5076f858c3d821b8c43f9406497c
