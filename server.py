@@ -694,7 +694,7 @@ def main():
     init_db()
     if os.environ.get("NO_SEED") != "1":
         seed()
-    host = os.environ.get("HOST", "127.0.0.1")
+    host = os.environ.get("HOST", "0.0.0.0")
     srv, port = None, PORT
     for p in range(PORT, PORT + 11):  # if the port is busy, try the next ones
         try:
